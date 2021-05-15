@@ -1,0 +1,51 @@
+body{
+background-color:#D6CCC0;
+font-family:montsserat;
+}
+@font-face{font-family:montsserat;
+src:url("montserrat/Montserrat-Regular.ttf");
+format("opentype");
+}
+h1{
+font-family:BoldMontsserat;
+text-align:center;	
+}
+h2{
+font-family:BoldMontsserat;
+ text-shadow: #FEF9E5 -1px -1px 0, #FEF9E5 10px 10px 0;
+}
+.light {
+	font-size:30px;
+    text-shadow: #FAFAD2 0 0 10px; /* Свечение голубого цвета */
+	font-family:Montserrat-Italic;
+	display:inline;
+ }
+
+.footer{
+background-color:#73706B;
+height:30%;
+border:1px #000;
+text-align:center; 
+}
+.imgsize{
+	width:300px;
+	height:300px;
+}
+@font-face{font-family:BoldMontsserat;
+src:url("montserrat/Montserrat-Bold.ttf");
+format("opentype");
+}
+@font-face{font-family:Montserrat-Italic;
+src:url("montserrat/Montserrat-Italic.ttf");
+format("opentype");
+}
+
+.card img{
+	height:450px;
+}
+a{
+color:#4B0609;	
+}
+a:hover{
+	color:#b5454d;
+}
